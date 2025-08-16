@@ -1,8 +1,10 @@
 # main.py
 
+def greet():
+    print("Hello from main branch!")
+
 def main():
-    print("Hello, World!")
-    print("it is the new feature branch")
+    greet()
 
 if __name__ == "__main__":
     main()
